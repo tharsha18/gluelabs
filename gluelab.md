@@ -95,8 +95,12 @@ In this section, you will use the data sets crawled under section 1 to create a 
 6. Leave rest default and click create
 7. Wait a few min and click refresh button at the top right corner of the page until you see the Status column turn to "Ready"
 
+It can take roughly between 5 to 10 min to get to ready state. Once ready, select the checbox and hit "open notebook". 
+
 ### Now your env is all ready to run notebook code!
 
 ## Execute your notebook code for data preparation activity
 
-
+1. Once your jupyter notebook opens up, click on "open JupyterLab" at the top right of the page.
+2. It will open jupyter lab. Now select "SparkMagic (PySpark)"
+3. 
