@@ -88,4 +88,10 @@ In this section, you will use the data sets crawled under section 1 to create a 
 ## Prepare Glue notebook
 
 1. In your AWS Console, navigate to AWS Glue --> Dev endpoints (Left hand pane under ETL) 
-2. You should see an endpoint named "glue-labs-Glue-Dev-Endpoint" already exisists for you
+2. You should see an endpoint named "glue-labs-Glue-Dev-Endpoint" already exisists for this lab
+3. Select the checkbox for the endpoint, click the drop down Action and select "Create SageMaker notebook"
+4. Type in any name for "Nootbook name"
+5. Ensure "Create an IAM role" radio button is selected and give any name for the IAM role
+6. Leave rest default and click create
+7. Wait a few min and click refresh button at the top right corner of the page
+
