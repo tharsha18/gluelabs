@@ -106,5 +106,7 @@ It can take roughly between 5 to 10 min to get to ready state. Once ready, selec
 ` https://emp-cf-templates-us-west-2.s3.us-west-2.amazonaws.com/gluelab/glue-dataprep.ipynb `
 
 2. Once your jupyter notebook opens up, click on "open JupyterLab" at the top right of the page.
-3. It will open jupyter lab. Now select "SparkMagic (PySpark)"
-4. 
+3. It will open jupyter lab. Now select the upload file button as seen in screenshot below and upload the file you downloaded above. 
+<Placeholder for Image>
+
+4. Follow the instructions on the notebook and complete the exercise. 
