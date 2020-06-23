@@ -28,8 +28,7 @@ If you do not see the files in steps 3, 4 above, speak to your lab instructor.
 4. Fields to fill in:
 
     Page: Add information about your crawler
-
-    Crawler name: nyc_trips_csv_crawler
+    : Crawler name: nyc_trips_csv_crawler
 
     Page: Add a data store
 
