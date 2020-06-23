@@ -93,5 +93,10 @@ In this section, you will use the data sets crawled under section 1 to create a 
 4. Type in any name for "Nootbook name"
 5. Ensure "Create an IAM role" radio button is selected and give any name for the IAM role
 6. Leave rest default and click create
-7. Wait a few min and click refresh button at the top right corner of the page
+7. Wait a few min and click refresh button at the top right corner of the page until you see the Status column turn to "Ready"
+
+### Now your env is all ready to run notebook code!
+
+## Execute your notebook code for data preparation activity
+
 
