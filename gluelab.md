@@ -79,3 +79,13 @@ While the crawler is running, move on to the step below.
 Now, verify whether both crawlers have run successfully and that you see 1 and 8 respectively under column named "Tables added"
 
 ### You have successfully completed the Pre-Requisites! Move on to the next section. 
+
+
+## Section 2: Data preperation and orchestration using AWS Glue Notebook
+
+In this section, you will use the data sets crawled under section 1 to create a derived dataset that is denormed and also convert the format from the source csv for one of the data sets and write in parquet format.
+
+## Prepare Glue notebook
+
+1. In your AWS Console, navigate to AWS Glue --> Dev endpoints (Left hand pane under ETL) 
+2. You should see an endpoint named "glue-labs-Glue-Dev-Endpoint" already exisists for you
