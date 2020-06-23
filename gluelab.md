@@ -27,23 +27,23 @@ If you do not see the files in steps 3, 4 above, speak to your lab instructor.
 
 4. Fields to fill in:
 
-Page: Add information about your crawler
+    Page: Add information about your crawler
 
-Crawler name: nyc_trips_csv_crawler
+    Crawler name: nyc_trips_csv_crawler
 
-Page: Add a data store
+    Page: Add a data store
 
-Choose a data store: S3
+    Choose a data store: S3
 
-Include path: s3://glue-labs-001-ReplaceYourAcctID/data/nyc_trips_csv/
+    Include path: s3://glue-labs-001-ReplaceYourAcctID/data/nyc_trips_csv/
 
-Page: Choose an IAM role
+    Page: Choose an IAM role
 
-IAM Role: Choose an existing IAM role glue-labs-GlueServiceRole
+    IAM Role: Choose an existing IAM role glue-labs-GlueServiceRole
 
-Page: Configure the crawler's output
+    Page: Configure the crawler's output
 
-Database: Click on ‘Add database’ and enter database name as nyc_trips.
+    Database: Click on ‘Add database’ and enter database name as nyc_trips.
 
 5. Click on the button ‘Finish’ to create the crawler.
 
@@ -62,21 +62,21 @@ While the crawler is running, move on to the step below.
 
 4. Fields to fill in:
 
-Page: Add information about your crawler
+    Page: Add information about your crawler
 
-Crawler name: salesdb_crawler
+    Crawler name: salesdb_crawler
 
-Page: Add a data store
+    Page: Add a data store
 
-Choose a data store: S3
+    Choose a data store: S3
 
-Include path: s3://glue-labs-001-YourAcctID/data/salesdb/
+    Include path: s3://glue-labs-001-YourAcctID/data/salesdb/
 
-Page: Choose an IAM role
-IAM Role: Choose an existing IAM role glue-labs-GlueServiceRole
+    Page: Choose an IAM role
+    IAM Role: Choose an existing IAM role glue-labs-GlueServiceRole
 
-Page: Configure the crawler's output
-Database: Click on ‘Add database’ and enter database name as salesdb.
+    Page: Configure the crawler's output
+    Database: Click on ‘Add database’ and enter database name as salesdb.
 
 5. Click on the button ‘Finish’ to create the crawler.
 
