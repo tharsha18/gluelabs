@@ -101,6 +101,8 @@ It can take roughly between 5 to 10 min to get to ready state. Once ready, selec
 
 ## Execute your notebook code for data preparation activity
 
-1. Once your jupyter notebook opens up, click on "open JupyterLab" at the top right of the page.
-2. It will open jupyter lab. Now select "SparkMagic (PySpark)"
-3. 
+1. Download the ipynb file using the url below. Copy/Paste below on your browser. 
+` https://emp-cf-templates-us-west-2.s3.us-west-2.amazonaws.com/gluelab/glue-dataprep.ipynb `
+2. Once your jupyter notebook opens up, click on "open JupyterLab" at the top right of the page.
+3. It will open jupyter lab. Now select "SparkMagic (PySpark)"
+4. 
