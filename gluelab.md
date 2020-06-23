@@ -19,13 +19,13 @@ If you do not see the files in steps 3, 4 above, speak to your lab instructor.
 
 #### Data set 1 - Taxi Trip Data
 
-Navigate to the AWS Glue console at Services -> AWS Glue
+1. Navigate to the AWS Glue console at Services -> AWS Glue
 
-From the left-hand panel menu, navigate to Data Catalog -> Crawlers.
+2. From the left-hand panel menu, navigate to Data Catalog -> Crawlers.
 
-Click on the button ‘Add Crawler’ to create a new AWS Glue Crawler.
+3. Click on the button ‘Add Crawler’ to create a new AWS Glue Crawler.
 
-Fields to fill in:
+4. Fields to fill in:
 
 Page: Add information about your crawler
 
@@ -35,7 +35,7 @@ Page: Add a data store
 
 Choose a data store: S3
 
-Include path: s3://glue-;abs-001-ReplaceYourAcctID/data/nyc_trips_csv/
+Include path: s3://glue-labs-001-ReplaceYourAcctID/data/nyc_trips_csv/
 
 Page: Choose an IAM role
 
@@ -45,28 +45,43 @@ Page: Configure the crawler's output
 
 Database: Click on ‘Add database’ and enter database name as nyc_trips.
 
-Click on the button ‘Finish’ to create the crawler.
+5. Click on the button ‘Finish’ to create the crawler.
 
-Select the new Crawler and click on 'Run crawler' to run the Crawler.
+6. Select the new Crawler and click on 'Run crawler' to run the Crawler.
+
+While the crawler is running, move on to the step below.
     
 
+#### Data set 2 - Sales Data
 
+1. Navigate to the AWS Glue console at Services -> AWS Glue
 
-Navigate to the AWS Glue console at Services -> AWS Glue
+2. From the left-hand panel menu, navigate to Data Catalog -> Crawlers.
 
-From the left-hand panel menu, navigate to Data Catalog -> Crawlers.
+3. Click on the button ‘Add Crawler’ to create a new AWS Glue Crawler.
 
-Click on the button ‘Add Crawler’ to create a new AWS Glue Crawler.
+4. Fields to fill in:
 
-Fields to fill in:
 Page: Add information about your crawler
+
 Crawler name: salesdb_crawler
+
 Page: Add a data store
+
 Choose a data store: S3
-Include path: s3://###s3_bucket###/data/salesdb/
+
+Include path: s3://glue-labs-001-YourAcctID/data/salesdb/
+
 Page: Choose an IAM role
 IAM Role: Choose an existing IAM role glue-labs-GlueServiceRole
+
 Page: Configure the crawler's output
 Database: Click on ‘Add database’ and enter database name as salesdb.
-Click on the button ‘Finish’ to create the crawler.
-Select the new Crawler and click on Run crawler to run the Crawler.
+
+5. Click on the button ‘Finish’ to create the crawler.
+
+6. Select the new Crawler and click on Run crawler to run the Crawler.
+
+Now, verify whether both crawlers have run successfully and that you see 1 and 8 respectively under column named "Tables added"
+
+### You have successfully completed the Pre-Requisites! Move on to the next section. 
