@@ -18,8 +18,11 @@ If you do not see the files in steps 3, 4 above, speak to your lab instructor.
 ### Create a Glue Catalog for the two datasets 
 
 Navigate to the AWS Glue console at Services -> AWS Glue
+
 From the left-hand panel menu, navigate to Data Catalog -> Crawlers.
+
 Click on the button ‘Add Crawler’ to create a new AWS Glue Crawler.
+
 Fields to fill in:
 Page: Add information about your crawler
 Crawler name: salesdb_crawler
