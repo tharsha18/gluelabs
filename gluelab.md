@@ -81,6 +81,10 @@ Now, verify whether both crawlers have run successfully and that you see 1 and 8
 ### You have successfully completed the Pre-Requisites! Move on to the next section. 
 
 
+
+
+
+
 ## Section 2: Data preperation and orchestration using AWS Glue Notebook
 
 In this section, you will use the data sets crawled under section 1 to create a derived dataset that is denormed and also convert the format from the source csv for one of the data sets and write in parquet format.
