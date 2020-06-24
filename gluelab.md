@@ -141,3 +141,6 @@ Click on the JSON tab and paste the text below. Click Review policy and give it 
 ![screenshot](img/picture2.png)
 
 4. Follow the instructions on the notebook and complete the exercise. 
+
+
+## Congratulations!!! You have successfully completed this lab
