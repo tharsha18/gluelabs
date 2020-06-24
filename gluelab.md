@@ -91,11 +91,38 @@ In this section, you will use the data sets crawled under section 1 to create a 
 2. You should see an endpoint named "glue-labs-Glue-Dev-Endpoint" already exisists for this lab
 3. Select the checkbox for the endpoint, click the drop down Action and select "Create SageMaker notebook"
 4. Type in any name for "Nootbook name"
-5. Ensure "Create an IAM role" radio button is selected and give any name for the IAM role
+5. Ensure "Create an IAM role" radio button is selected and give any name for the IAM role. Make a note of this IAM role name which will be used next.
 6. Leave rest default and click create
 7. Wait a few min and click refresh button at the top right corner of the page until you see the Status column turn to "Ready"
 
 It can take roughly between 5 to 10 min to get to ready state. Once ready, select the checbox and hit "open notebook". 
+
+8. This step is required to allow Sagemaker notebook to crate Glue jobs and workflows.
+
+Using your AWS Console, navigate to IAM --> Roles and search for the IAM role you created in step 5. It should start with AWSGlueServiceSageMakerNotebookRole-. 
+Click the role and add an inline policy as shown below.
+
+![screenshot](img/picture3.png)
+
+Click on the JSON tab and paste the text below. Click Review policy and give it any name in next screen and click create policy.
+
+``` {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "iam:PassRole",
+            "Resource": "*",
+            "Condition": {
+                "StringEquals": {
+                    "iam:PassedToService": "glue.amazonaws.com"
+                }
+            }
+        }
+    ]
+}```
+
+![screenshot](img/picture4.png)
 
 ### Now your env is all ready to run notebook code!
 
