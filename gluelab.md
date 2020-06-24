@@ -120,7 +120,8 @@ Click on the JSON tab and paste the text below. Click Review policy and give it 
             }
         }
     ]
-} ```
+} 
+```
 
 ![screenshot](img/picture4.png)
 
