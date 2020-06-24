@@ -81,9 +81,10 @@ Now, verify whether both crawlers have run successfully and that you see 1 and 8
 ### You have successfully completed the Pre-Requisites! Move on to the next section. 
 
 
-
-
-
+\n
+\n
+\n
+\n
 
 
 ## Section 2: Data preperation and orchestration using AWS Glue Notebook
