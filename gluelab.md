@@ -169,6 +169,11 @@ Add following to another inline policy and name it inlinepolicy2
 ![screenshot](img/picture2.png)
 
 4. Follow the instructions on the notebook and complete the exercise. 
+5. Once you successfully completed the notebook steps, you will see a glue workflow as seen in screenshot below. Navigate in your AWS console to AWS Glue --> Workflow (Under ETL) --> click on the workflow you see. 
+
+Now, you can select it and click "run" under Actions drop down. This will run your notebook without you having to open the notebook going forward. Similarly, you can schedule this on a day to day basis for incremental data processing.
+
+![screenshot](img/Glue_Workflow.png)
 
 
 ## Congratulations!!! You have successfully completed this lab
