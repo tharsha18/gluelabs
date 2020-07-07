@@ -104,7 +104,7 @@ It can take roughly between 5 to 10 min to get to ready state. Once ready, selec
 8. This step is required to allow Sagemaker notebook to crate Glue jobs and workflows.
 
 Using your AWS Console, navigate to IAM --> Roles and search for the IAM role you created in step 5. It should start with AWSGlueServiceSageMakerNotebookRole-. 
-Click the role and add an inline policy as shown below.
+Click the role and add an inline policy as shown below. (We will create two inline policies)
 
 ![screenshot](img/picture3.png)
 
@@ -129,6 +129,27 @@ Click on the JSON tab and paste the text below. Click Review policy and give it 
 ```
 
 ![screenshot](img/picture4.png)
+
+#### Inline Policy 2
+
+Add following to another inline policy and name it inlinepolicy2
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "glue:CreateJob",
+                "glue:CreateTrigger",
+                "glue:CreateWorkflow"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+```
 
 ### Now your env is all ready to run notebook code!
 
