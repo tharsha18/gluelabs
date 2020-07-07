@@ -110,6 +110,8 @@ Click the role and add an inline policy as shown below. (We will create two inli
 
 Click on the JSON tab and paste the text below. Click Review policy and give it any name in next screen and click create policy.
 
+#### Inline policy 1
+
 ``` 
 {
     "Version": "2012-10-17",
