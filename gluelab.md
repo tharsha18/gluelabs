@@ -94,10 +94,10 @@ In this section, you will use the data sets crawled under section 1 to create a 
 1. In your AWS Console, navigate to AWS Glue --> Dev endpoints (Left hand pane under ETL) 
 2. You should see an endpoint named "glue-labs-Glue-Dev-Endpoint" already exisists for this lab
 3. Select the checkbox for the endpoint, click the drop down Action and select "Create SageMaker notebook"
-4. Type in any name for "Nootbook name"
+4. Type in any name for "Notebook name"
 5. Ensure "Create an IAM role" radio button is selected and give any name for the IAM role. Make a note of this IAM role name which will be used next.
 6. Leave rest default and click create
-7. Wait a few min and click refresh button at the top right corner of the page until you see the Status column turn to "Ready"
+7. Wait a few min and click refresh button at the top right corner of the page until you see the Status column turn to "Ready". Alternately, after waiting a few minutes, you can move on to step 8 below and see if the role name appears while you wait on status to turn to "Ready".
 
 It can take roughly between 5 to 10 min to get to ready state. Once ready, select the checbox and hit "open notebook". 
 
@@ -110,7 +110,8 @@ Click the role and add an inline policy as shown below.
 
 Click on the JSON tab and paste the text below. Click Review policy and give it any name in next screen and click create policy.
 
-``` {
+``` 
+{
     "Version": "2012-10-17",
     "Statement": [
         {
