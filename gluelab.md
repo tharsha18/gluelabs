@@ -101,9 +101,9 @@ In this section, you will use the data sets crawled under section 1 to create a 
 
 It can take roughly between 5 to 10 min to get to ready state. Once ready, select the checbox and hit "open notebook". 
 
-8. This step is required to allow Sagemaker notebook to crate Glue jobs and workflows.
+8. Now, under AWS services drop down search for IAM and right click to open it in a new tab. This step is required to allow Sagemaker notebook to crate Glue jobs and workflows.
 
-Using your AWS Console, navigate to IAM --> Roles and search for the IAM role you created in step 5. It should start with AWSGlueServiceSageMakerNotebookRole-. 
+Navigate to IAM --> Roles and search for the IAM role you created in step 5. It should start with AWSGlueServiceSageMakerNotebookRole-. 
 Click the role and add an inline policy as shown below. (We will create two inline policies)
 
 ![screenshot](img/picture3.png)
