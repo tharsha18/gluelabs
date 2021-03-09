@@ -1,4 +1,4 @@
-# Serverless ETL using Glue Notebooks
+# Serverless ETL using Spark-Sql and AWS Glue Notebooks
 
 In this lab you will learn how to use AWS Glue with notebooks and prepare dataset for feature engineering, transformations and creating an orchestration workflow for the jobs to help you create a pipeline to handle day-to-day data changes.
 
