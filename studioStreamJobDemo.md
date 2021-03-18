@@ -1,4 +1,4 @@
-## Demo Glue studio job code
+## Demo Glue studio Stream ETL job code
 
 ```
 import sys
